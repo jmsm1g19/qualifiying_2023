@@ -59,6 +59,8 @@ namespace ec
     Float& operator--() noexcept;    // prefix decrement
     Float operator--(int) noexcept;  // postfix decrement
 
+    bool isNan()const noexcept;
+
  
 
     friend class VecHw;
@@ -316,6 +318,12 @@ namespace ec
     Float old = *this;
     operator--();
     return old;
+  }
+
+
+  inline bool Float::isNan() const noexcept
+  {
+    return std::isnan(m_value);
   }
 
 

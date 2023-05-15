@@ -51,6 +51,12 @@ bool verify_if_correct(const std::vector<ec::Float>& maxSpectrum, const std::vec
 
   for (size_t I = 0; I < refSpectrum.size(); ++I)
   {
+    if (maxSpectrum[I].isNan())
+    {
+      return false;
+    }
+
+
     ec::Float diff = ec_abs(maxSpectrum[I] - refSpectrum[I]);
 
     if (diff > maxDelta)
