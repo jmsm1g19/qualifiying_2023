@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\solution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec2023.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec_measurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec_float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec_vec_hw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec_stream_hw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec_signal_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\ec2023\ec_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jacob\OneDrive\Projects\Rohde &amp; Schwarz Competition\qualifiying_2023\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5FFA9FE-C831-3BF9-B654-09984302722F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FF57EEF9-811B-302E-AE9D-899211E4EB7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

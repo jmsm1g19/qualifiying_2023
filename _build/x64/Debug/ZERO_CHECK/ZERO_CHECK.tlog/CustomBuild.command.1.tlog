@@ -1,0 +1,10 @@
+^C:\USERS\JACOB\ONEDRIVE\PROJECTS\ROHDE & SCHWARZ COMPETITION\QUALIFIYING_2023\_BUILD\CMAKEFILES\311D73FDCDFA4EFECF4DA83DD2CBB632\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/jacob/OneDrive/Projects/Rohde & Schwarz Competition/qualifiying_2023" "-BC:/Users/jacob/OneDrive/Projects/Rohde & Schwarz Competition/qualifiying_2023/_build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/jacob/OneDrive/Projects/Rohde & Schwarz Competition/qualifiying_2023/_build/EC2023.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
